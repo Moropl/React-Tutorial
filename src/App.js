@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {CredentialsForm}  from './components/credentialsForm/credentials-form.component';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         >
           Already react lerned
         </a>
+        <CredentialsForm />
       </header>
     </div>
   );
